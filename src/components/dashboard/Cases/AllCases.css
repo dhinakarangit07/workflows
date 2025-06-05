@@ -1,0 +1,82 @@
+.all-cases-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .action-buttons button {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .disclaimer-note {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-left: 3px solid #ccc;
+    font-size: 0.9em;
+  }
+  
+  .cases-table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  .cases-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+  }
+  
+  .cases-table th, .cases-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .cases-table th {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+  }
+  
+  .cases-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .cases-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .header-section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .action-buttons {
+      width: 100%;
+    }
+  }
